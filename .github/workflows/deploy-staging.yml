@@ -2,7 +2,8 @@ name: Stage the app
 
 on: 
   pull_request:
-    types: [labeled]
+    branches:
+     - staging-workflow
 
 jobs:
   build:
